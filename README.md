@@ -2,9 +2,9 @@ My plan here is to make an interactive character sheet for the ttrpg Masks, a ga
 
 _Stage 1_
 * create the form for the player to enter their
-  * character's name
-  * character's playbook
-  * character's starting Stats
+  ~~* character's name~~
+  ~~* character's playbook~~
+  ~~* character's starting Stats~~
 * take those form entries and transform it into a character sheet
 
 _Stage 2_

@@ -7,7 +7,7 @@ form.addEventListener('submit', (event) => {
 /* function charPage() {
   var name = getElementByID
 } */
-class Char = {
+class Char {
 constructor(name, playbook, danger, freak, savior, superior, mundane) {
   this.name = name;
   this.playbook = playbook;
@@ -36,3 +36,6 @@ let freak = fr.value;
 let savior = sa.value;
 let superior = su.value;
 let mundane = mu.value;
+
+var yourChar = new Char (name, playbook, danger, freak, savior, superior, mundane);
+console.log(yourChar);
