@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+  <head>
+    <title>MASKS character sheet and dice roller</title>
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <header><H1>
+    MASKS character sheet and dice roller
+    </H1></header>
+
+    <div class="infoForm">
+      <form id="charSheet">
+      <label for="name">What is your character's name?</label>  <input type = "text" id="name" name="name"><br>
+      <label for="playbook">What playbook are you using?</label>  <input type="text" id="playbook" name="playbook"><br>
+      <h3>Stats</h3>
+
+      Danger: <select id="danger" name="danger">
+        <option value=" "> - </option>
+        <option value=-2> -2 </option>
+        <option value=-1> -1 </option>
+        <option value=0> 0 </option>
+        <option value=1> +1 </option>
+        <option value=2> +2 </option>
+        <option value=3> +3 </option>
+      </select>
+      Freak: <select id="freak" name="freak">
+        <option value=" "> - </option>
+        <option value=-2> -2 </option>
+        <option value=-1> -1 </option>
+        <option value=0> 0 </option>
+        <option value=1> +1 </option>
+        <option value=2> +2 </option>
+        <option value=3> +3 </option>
+      </select>
+      Savior: <select id=" " name="savior">
+        <option value="savior"> - </option>
+        <option value=-2> -2 </option>
+        <option value=-1> -1 </option>
+        <option value=0> 0 </option>
+        <option value=1> +1 </option>
+        <option value=2> +2 </option>
+        <option value=3> +3 </option>
+      </select>
+      Superior: <select id="superior" name="superior">
+        <option value=" "> - </option>
+        <option value=-2> -2 </option>
+        <option value=-1> -1 </option>
+        <option value=0> 0 </option>
+        <option value=1> +1 </option>
+        <option value=2> +2 </option>
+        <option value=3> +3 </option>
+      </select>
+      Mundane: <select id="mundane" name="mundane">
+        <option value=" "> - </option>
+        <option value=-2> -2 </option>
+        <option value=-1> -1 </option>
+        <option value=0> 0 </option>
+        <option value=1> +1 </option>
+        <option value=2> +2 </option>
+        <option value=3> +3 </option>
+      </select>
+
+      <br><br><br>
+      <!-- <input type="submit" value="submit" id="submit"> -->
+      <button id="submit">
+      submit
+      </button>
+
+
+      </form>
+    </div>
+    <script src="js/form.js"></script>
+  </body>
+</html>
