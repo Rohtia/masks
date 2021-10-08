@@ -8,83 +8,36 @@
 
   <body>
     <header><H1>
-    MASKS character sheet and dice roller
+    Create your MASKS character
     </H1></header>
 
-    <div class="infoForm">
-      <form id="charSheet">
-      <label for="name">What is your character's name?</label>  <input type = "text" id="name" name="name"><br>
-      <label for="playbook">What playbook are you using?</label>  <select id="playbook" name="playbook" required>
-        <option value=" "> - </option>
-        <option value="beacon">The Beacon</option>
-        <option value="bull">The Bull</option>
-        <option value="delinquent">The Delinquent</option>
-        <option value="doomed">The Doomed</option>
-        <option value="janus">The Janus</option>
-        <option value="legacy">The Legacy</option>
-        <option value="nova">The Nova</option>
-        <option value="outsider">The Outsider</option>
-        <option value="protege">The Protege</option>
-        <option value="transformed">The Transformed</option>
-      </select>
+    <div class="form">
+      <form id="charForm">
+        <p>
+        <label for="formName">Character Name: </label>
+        <input type="text" id="formName" name="formName" value="Lee">
+        </p>
 
-      <h3>Stats</h3>
-
-      Danger: <select id="danger" name="danger" required>
-        <option value=" "> - </option>
-        <option value=-2> -2 </option>
-        <option value=-1> -1 </option>
-        <option value=0> 0 </option>
-        <option value=1> +1 </option>
-        <option value=2> +2 </option>
-        <option value=3> +3 </option>
-      </select>
-      Freak: <select id="freak" name="freak" required>
-        <option value=" "> - </option>
-        <option value=-2> -2 </option>
-        <option value=-1> -1 </option>
-        <option value=0> 0 </option>
-        <option value=1> +1 </option>
-        <option value=2> +2 </option>
-        <option value=3> +3 </option>
-      </select>
-      Savior: <select id=" " name="savior" required>
-        <option value="savior"> - </option>
-        <option value=-2> -2 </option>
-        <option value=-1> -1 </option>
-        <option value=0> 0 </option>
-        <option value=1> +1 </option>
-        <option value=2> +2 </option>
-        <option value=3> +3 </option>
-      </select>
-      Superior: <select id="superior" name="superior" required>
-        <option value=" "> - </option>
-        <option value=-2> -2 </option>
-        <option value=-1> -1 </option>
-        <option value=0> 0 </option>
-        <option value=1> +1 </option>
-        <option value=2> +2 </option>
-        <option value=3> +3 </option>
-      </select>
-      Mundane: <select id="mundane" name="mundane" required>
-        <option value=" "> - </option>
-        <option value=-2> -2 </option>
-        <option value=-1> -1 </option>
-        <option value=0> 0 </option>
-        <option value=1> +1 </option>
-        <option value=2> +2 </option>
-        <option value=3> +3 </option>
-      </select>
-
-      <br><br><br>
-      <!-- <input type="submit" value="submit" id="submit"> -->
-      <div class="button">
-        <button id="submit" formaction="characterSheet.html">submit</button>
-        <input type="reset">
-      </div>
+        <p>
+        <label for="formPlaybook">Playbook:</label>
+        <select id="formPlaybook" name="formPlaybook" required>
+          <!--<option value=" ">- </option>-->
+          <option value="nova">The Nova</option>
+        </select>
+        </p>
 
       </form>
-    </div>
-    <script src="js/form.js"></script>
+
+      <p>
+      <button onclick="runForm()" onclick="characterSheet.html">
+        Create Character
+      </button></p>
+
+      <p id="demo">  </p>
+    </div> <!--close the form-->
+
+    <!-- <a href="characterSheet.html"><button>
+      Go to character sheet
+    </button></a> -->
   </body>
 </html>

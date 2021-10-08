@@ -1,0 +1,88 @@
+h1 {
+  height: 50px;
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  width: 1200px;
+  padding: 10px;
+  margin: auto;
+  border: 3px solid black;
+}
+
+.personalInfo {
+  width: 550px;
+  height: 475px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid red;
+}
+
+.speechBubble {
+  width: 150px;
+  height: 100px;
+  border: 2px solid blue;
+  float: right;
+  margin: 20px 20px 0 0;
+}
+
+.diceDisplay {
+  width: 150px;
+  height: 180px;
+  border: 2px dashed red;
+  position: relative;
+  left: 390px;
+  top: 260px;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  width: 550px;
+  height: 475px;
+  border: 2px solid red;
+  margin: 10px;
+  margin: auto;
+  padding: 10px;
+  background-color: lightblue;
+}
+
+.statBox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 115px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px purple solid;
+  background-color: lightcoral;
+}
+
+.mod {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  margin: auto;
+  background-color: grey;
+  text-align: center;
+}
+
+.statName {
+  display: flex;
+  border: 1px solid black;
+  width: 100px;
+  text-align: center;
+  margin: auto;
+}
+
+.statAdj {
+  border: 1px solid green;
+  width: 100px;
+  text-align: center;
+  margin: auto;
+}

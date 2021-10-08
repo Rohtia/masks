@@ -2,44 +2,130 @@
 <html>
 <head>
   <title> MASKS character sheet and dice roller</title>
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/CharStyle.css" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <h1>MASKS character sheet and dice roller</h1>
-  </header>
+  <h1>MASKS Character Sheet and Dice Roller</h1>
 
   <div class="flex-container">
-    <div class="personalInfo">
-      <h2>Info</h2>
 
-      Character name:
-      <br>
-      Playbook:
-    </div> <!--closing personalInfo-->
+  <div class="personalInfo">
+    <div class="speechBubble">
+    <p>
+      Hi, I'm <script src="js/form.js">document.write.innerHTML = character [0];</script>
+      , and I'm <script src="js/form.js">document.write.innerHTML = character[1];</script>
+    </p>
+    </div> <!--close speechBubble-->
 
-    <div class="stats">
-      <h2>Stats</h2>
-      <div class="eachStat">
+    <div class="diceDisplay">
+    This is the dice display
+    </div><!--close diceDisplay-->
+
+  </div><!--close personalInfo page-->
+
+  <div class="stats">
+
+    <div class="statBox">
+      <div class="mod">
+      <p>
+      +2
+      </p>
+      </div><!--close danger mod-->
+      <div class="statName">
+        <p>
         Danger
-      </div>
-      <div class="eachStat">
-        Freak
-      </div>
-      <div class="eachStat">
-        Savior
-      </div>
-      <div class="eachStat">
-        Superior
-      </div>
-      <div class="eachStat">
-        Mundane
-      </div>
+        </p>
+      </div><!--close danger statName-->
+      <div class="statAdj">
+        <p>
+        buttons
+        </p>
+      </div><!--close danger statAdj-->
+    </div><!--close danger statBox-->
 
-    </div> <!--closing stats-->
-  </div><!--closing sheet-->
+    <div class="statBox">
+      <div class="mod">
+        <p>
+          +1
+        </p>
+      </div><!--close freak mod-->
+      <div class="statName">
+        <p>
+          Freak
+        </p>
+      </div><!--close freak statName-->
+      <div class="statAdj">
+        <p>
+          buttons
+        </p>
+      </div><!--close freak statAdj-->
+    </div><!--close freak statBox-->
 
+    <div class="statBox">
+      <div class="mod">
+        <p>
+        0
+        </p>
+      </div><!--close savior mod-->
+      <div class="statName">
+        <p>
+          Savior
+        </p>
+      </div><!--close savior statName-->
+      <div class="statAdj">
+        <p>
+          buttons
+        </p>
+      </div><!--close savior statAdj-->
+    </div><!--close savior statBox-->
+
+    <div class="statBox">
+      <div class="mod">
+        <p>
+          +1
+        </p>
+      </div><!--close superior mod-->
+      <div class="statName">
+        <p>
+          Superior
+        </p>
+      </div><!--close superior statName-->
+      <div class="statAdj">
+        <p>
+          buttons
+        </p>
+      </div><!--close superior statAdj-->
+    </div><!--close superior statBox-->
+
+    <div class="statBox">
+      <div class="mod">
+        <p>
+          +2
+        </p>
+      </div><!--close mundane mod-->
+      <div class="statName">
+        <p>
+          Mundane
+        </p>
+      </div><!--close mundane statName-->
+      <div class="statAdj">
+        <p>
+          buttons
+        </p>
+      </div><!--close mundane statAdj-->
+    </div><!--close mundane statBox-->
+
+    <div class="statBox">
+    Conditions
+    </div><!--close conditions-->
+
+
+
+  </div><!--close stats-->
+
+
+  </div><!--close flex-container-->
 </body>
 
 </html>
